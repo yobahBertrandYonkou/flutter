@@ -1,0 +1,103 @@
+/* External styling */
+/* Importing fonts used in the design */
+@font-face {
+    font-family: Alata;
+    src: url('../fonts/Alata/Alata-Regular.ttf');
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+
+/* Setting background color */
+body {
+    background-color: #330D36;
+}
+
+/* setting header font-family */
+#header-container {
+    font-family: Koulen;
+}
+
+.header-row {
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
+
+/* Table formatting */
+/* Setting rounded row corners */
+tr th:last-child, tr td:last-child {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+tr th:first-child, tr td:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+/* Cell padding, border and background color */
+th, .dash-cell {
+    padding: 10px !important;
+    border: 1px solid #330D36 !important;
+    text-align: center !important;
+}
+
+th {
+    font-size: 20px !important;
+    background-color: #8D2A95 !important;
+    color: white !important;
+}
+
+.dash-cell {
+    background-color: #621C68 !important;
+    color: rgba(255, 255, 255, 0.58);
+}
+
+.cell-table {
+    border-collapse: separate !important;
+    border-spacing: 0 10px !important;
+    font-family: Alata !important;
+}
+
+/* Pagination style for table */
+.previous-next-container, .Select-value-label {
+    color: white !important;
+}
+
+input {
+    color: white !important;
+}
+
+/* row margin */
+.row {
+    margin-bottom: 30px !important;
+    font-family: Alata !important;
+}
+
+/* Filter button customization */
+.Select-control {
+    background-color: transparent !important;
+}
+
+.Select-menu-outer {
+    background-color: transparent !important;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Select-menu {
+    background-color: #621C68 !important;
+    color: white !important;
+}
+
+/* Adding hover and active effects to buttons */
+.button-div:hover {
+    background-color: #8D2A95 !important;
+}
+
+#download-btn:hover {
+    color: #37c493 !important;
+}
